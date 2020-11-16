@@ -1,0 +1,30 @@
+header {
+    width: 100vw;
+    height: 8rem;
+    background-color: var(--color-header);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.logo-postafi img{
+    width: 19rem;
+}
+
+.new-topic {
+    position: relative;
+    top: 4.1rem;
+    border-radius: 5rem;
+    width: 5.6rem;
+    height: 5.6rem;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    transition: all 200ms;   
+}
+
+.new-topic img {
+    width: 2.4rem;
+}

@@ -1,0 +1,18 @@
+.new-topic {
+    width: 10rem;
+}
+
+form {
+    width: 100%;
+    border: 0.1rem solid var(--color-border-base);
+    border-radius: .8rem;
+}
+
+form fieldset {
+    background-color: var(--color-box-base);
+    
+}
+
+form fieldset + fieldset {
+    background-color: var(--color-box-base-footer);
+}

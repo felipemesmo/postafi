@@ -1,0 +1,48 @@
+body {
+    background: var(--color-primary);
+}
+
+.container {
+    max-width: 112.5rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas:
+    "logo logo ."
+    "button button text";
+    gap: 15rem 0;
+}
+
+.logo-container {
+    grid-area: logo;
+}
+.logo-container h1 img {
+    width: 78rem;
+}
+
+.button-container {
+    grid-area: button;
+    display: flex;
+    align-items: center;
+
+}
+
+.button-container a {
+    width: 30rem;
+    height: 10rem;
+}
+
+.button-container a + a {
+    margin-left: 3rem;
+}
+
+.text-container {
+    grid-area: text;
+
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+.text-container p {
+    color: var(--color-text);
+}

@@ -1,0 +1,54 @@
+.container {
+    max-width: 73.6rem;
+    margin: 10rem auto;
+}
+
+ul {
+    list-style-type: none;
+    width: 100%;
+    
+}
+
+ul li {
+    width: 100%;
+    border: 0.1rem solid var(--color-border-base);
+    border-radius: .8rem;
+    background-color: var(--color-box-base);
+}
+
+ul li + li {
+    margin-top: 5rem;
+}
+
+.topic-content {
+    width: 100%;
+    padding: 3.2rem;
+}
+
+.topic-content h2 {
+    font-size: 2.4rem;
+    font-weight: 700;
+    line-height: 1.5;
+
+    margin-bottom: 3.2rem;
+}
+
+.topic-content p {
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 1.6;
+}
+
+.topic-action {
+    width: 100%;
+    background-color: var(--color-box-footer);
+    border: 0.1rem solid var(--color-border-base);
+    padding: 3.2rem;
+    
+    display: flex;
+    justify-content: end;
+}
+.topic-action a{
+    max-width: 25rem;
+    font-size: 1.6rem;
+}
