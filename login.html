@@ -19,20 +19,16 @@
         <span class="new-topic"></span>
 </header>
     <div class="container">
-       <form action="cadastro.php" method="POST">
+       <form action="login.php" method="post">
            <fieldset>
-                <h2>Seus Dados</h2>
-                <label for="email">E-mail</label>
+                <h2>Login</h2>
+                <label for="email">E-mail</label><br>
                 <input type="email" name="email">
-
                 <label for="pwd">Senha</label>
-                <input type="pwd" name="senha">
-
-                <label for="pw2">Confirmar Senha</label>
-                <input type="pw2" name="confirmacao_senha">
+                <input type="password" name="senha">
            </fieldset>
            <fieldset>
-                <button class="button btn-primary" type="submit">Cadastrar</button>
+                <button class="button btn-primary" type="submit">Login</button>
            </fieldset>
        </form>
     </div>
